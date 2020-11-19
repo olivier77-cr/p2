@@ -1,0 +1,270 @@
+#logo img {
+  width: 100px;
+}
+
+#logo {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+nav {
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  padding-top: 10px;
+}
+
+nav ul li:hover {
+  border-top: 1px solid blue;
+  color: blue;
+  cursor: pointer;
+}
+
+#inscription {
+  color: blue;
+  font-weight: bold;
+  border: none;
+}
+
+section {
+  width: 400px;
+  border: 5px solid (111, 41, 97);
+  border-radius: 5em;
+  padding: 5px;
+  display: flex;
+  align-items: justify;
+}
+
+.item {
+  width: 180px;
+  padding: 10px;
+  background-color: rgba(9, 51, 51, 0.123);
+  border-radius: 10px solid rgba(190, 40, 65, 0.74);
+  display: inline-block;
+  vertical-align: center;
+  border-radius: 10px ;
+  /*dimensions des filtres */
+}
+
+.fas {
+  color: blue;
+  
+}
+  .article.hebergements {
+  width: 25%;
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 2%;
+  max-width: 820px;
+  height: 410px;
+}
+
+.ensemble-hebergements {
+  margin: 40 auto;
+  text-align: center;
+  box-shadow: 15px 15px 15px grey;
+  color:gray ;
+  background-color: lightgrey;
+
+
+}
+
+figure.hotel {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 5px 5px 5px grey;
+  border: thin #c0c0c0 solid;
+  padding: 10px;
+  width: auto;
+  margin: 30px;
+  border-radius: 10px;
+  
+}
+
+img {
+  height: 100px;
+  border-radius: 20px 20px 0px 0px;
+  width: 220px;
+  /*dimensions des photos activités les plus populaires*/
+}
+
+figcaption {
+  color: black;
+  font: smaller sans-serif;
+  padding: 3px;
+  flex-direction: row-reverse;
+  text-align:left;
+}
+
+figure p, figure h4 {
+  margin: 4px;
+}
+
+.affichez-plus {
+  text-align: left;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.hebergement-a-marseille {
+  text-align: left;
+  padding: 10px;
+}
+
+aside.lespluspopulaires {
+  width: 20%;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 2%;
+  height: 780px;
+  vertical-align:top ;
+  /*dimensions du cadre gris et des cadres internes les plus populaires*/
+}
+
+}
+
+.populaire {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 5px 5px 5px grey;
+  border: thin #c0c0c0 solid;
+  padding: 5px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.populaire figcaption {
+  background-color: white;
+  display: baseline;
+  flex-direction: column;
+}
+
+.hotel img {
+  border-radius: 10px 10px 0px 0px;
+  width: 220px;
+  height: 150px;
+}
+
+.populaire img {
+  border-radius: 10px 0px 0px 10px;
+  width: 150px;
+}
+
+section.loisirs {
+  width: 80%;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 4%;
+  max-width: 900px;
+  height: 400px;
+}
+
+.activité figcaption {
+  background-color: white;
+}
+
+.ensemble-loisirs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 4 auto;
+  text-align: left;
+  width: 48%;
+  align-items: stretch;
+  padding: 50px;
+  border-radius: 10px;
+  align-content: right;
+  /*longueur et largeur du cadre*/
+}
+
+.loisirs {
+  margin-bottom: 80%;
+}
+
+figure.Activité {
+  box-shadow: 25px 25px 25px grey;
+  background-color: white;
+  border: thin #c0c0c0 solid;
+  margin: 10px;
+  width: 220px;
+  border-radius: 10px;
+  height: 90%;
+  padding: 0px;
+  /*longueur et largeur du conteneur*/
+}
+
+figure img {
+  width: 100%;
+  margin: 0px;
+}
+
+figure.figcation {
+  font-style: italic;
+}
+
+.Activités-a-marseille {
+  text-align: left;
+  padding: 0px;
+}
+
+.colonneactivités img {
+  width: 220px;
+  flex-direction: column;
+  background-size: auto;
+  height: 370px
+}
+.colonneactivités {
+  flex-grow: 2;
+  width: 300px;
+  height: 200px;
+  justify-content: center;
+  white-space:
+}
+
+
+.unique-figure-Activité {
+  height: 500px;
+  padding: 5px;
+  width: 600px;
+  align-items: baseline;
+  flex-direction: column;
+  justify-content: center;
+}
+
+figure.Activité img {
+  width: 220px;
+  height: 150px;
+}
+
+.activités-a-marseille {
+  text-align: right;
+  padding: 10px;
+  margin: auto;
+  
+}
+#conteneur
+ {
+display:flex;
+justify-content: space-around;
+width: 1120px;
+height: 180px;
+box-shadow: 25px 25px 25px grey;
+color:gray ;
+background-color: lightgrey;
+margin: auto;
+}
